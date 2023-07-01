@@ -71,7 +71,6 @@
         </select><br><br>
 
         <input type="submit" value="Modifier">
-        <button onclick="window.location.href = 'index.php?page=suppression_article&id=<?php echo $article['id']; ?>';" class="delete-button">Supprimer</button>
     </form>
 </body>
 </html>

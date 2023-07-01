@@ -27,7 +27,6 @@
 
                         <?php if(isset($_SESSION['utilisateur'])) { ?>
                             <button onclick="window.location.href = 'index.php?page=creation_article'" class="create-button ">Créer article</button>
-                            <button onclick="window.location.href = 'index.php?page=article&id=<?php echo $categorie['id']; ?>';" class="create-button ">Créer Catégorie</button>
                         <?php }  ?>
                     </ul>
                 </nav>

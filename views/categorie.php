@@ -11,6 +11,9 @@
             <div class="card">
                 <h3 class="card-title"><?php echo $article['titre'] ?></h3>
                 <p class="card-description"><?php echo $article['contenu'] ?></p>
+                <?php if(isset($_SESSION['utilisateur'])) { ?>
+                    <button class="button-delete-artilce" onclick="window.location.href = 'index.php?page=suppression_article&id=<?php echo $article['id']; ?>';">Supprimer</button>
+                <?php }?>
             </div> 
         <?php } ?>
     </ul>

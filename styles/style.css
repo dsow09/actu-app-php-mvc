@@ -130,6 +130,20 @@ html, body {
   cursor: pointer;
 }
 
+.button-delete-artilce {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
 .edit-button {
   background-color: blue;
   color: white;
